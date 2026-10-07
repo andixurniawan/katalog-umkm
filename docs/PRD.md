@@ -28,15 +28,16 @@ Membuat katalog produk online untuk satu UMKM, yang bisa dibagikan sebagai satu 
 
 | Fitur | User story |
 | --- | --- |
-| Tambah produk | US-07 |
-| Ubah produk | US-08 |
-| Hapus produk | US-09 |
-| Filter kategori atau pencarian | US-10 |
-| Pilih jumlah atau varian sebelum pesan | US-11 |
-| Aplikasi bisa di-install di HP (PWA) | US-12 |
-| Deskripsi produk dibuat AI | US-13 |
+| List produk di halaman admin | US-07 |
+| Tambah produk | US-08 |
+| Ubah produk | US-09 |
+| Hapus produk | US-10 |
+| Filter kategori atau pencarian | US-11 |
+| Pilih jumlah atau varian sebelum pesan | US-12 |
+| Aplikasi bisa di-install di HP (PWA) | US-13 |
+| Deskripsi produk dibuat AI | US-14 |
 
-Pada jalur online, US-07 sampai US-13 menjadi wajib (kecuali US-11), ditambah fitur sesuai kebutuhan klien UMKM masing-masing.
+Pada jalur online, US-07 sampai US-14 menjadi wajib (kecuali US-12), ditambah fitur sesuai kebutuhan klien UMKM masing-masing.
 
 ## Di luar ruang lingkup
 

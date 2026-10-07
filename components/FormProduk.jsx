@@ -1,7 +1,7 @@
 import Input from "@/components/Input";
 import Tombol from "@/components/Tombol";
 
-// Dipakai untuk tambah produk (US-07) dan ubah produk (US-08). Keduanya bonus di jalur offline.
+// Dipakai untuk tambah produk (US-08) dan ubah produk (US-09). Keduanya bonus di jalur offline.
 // Nama field sama dengan kolom tabel "produk".
 export default function FormProduk({ produk = {}, labelTombol }) {
   return (

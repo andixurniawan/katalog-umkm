@@ -65,32 +65,35 @@ Kriteria selesai:
 
 ## Bonus
 
-### US-07 Tambah produk
+### US-07 List Produk
+Sebagai admin, saya ingin produk pada page `/admin` mengambil data dari database.
+
+### US-08 Tambah produk
 
 Sebagai admin, saya ingin menambah produk baru dari halaman admin. Kriteria: form di `/admin/produk/baru` menyimpan produk ke database, lalu kembali ke `/admin`.
 
-### US-08 Ubah produk
+### US-09 Ubah produk
 
 Sebagai admin, saya ingin mengubah data produk. Kriteria: form di `/admin/produk/[id]/ubah` terisi data lama dan menyimpan perubahan ke database.
 
-### US-09 Hapus produk
+### US-10 Hapus produk
 
 Sebagai admin, saya ingin menghapus produk. Kriteria: tombol "Hapus" meminta konfirmasi, lalu menghapus produk dari database.
 
-### US-10 Filter kategori atau pencarian
+### US-11 Filter kategori atau pencarian
 
 Sebagai pengunjung, saya ingin menyaring produk berdasarkan kategori atau mencari nama produk.
 
-### US-11 Pilih jumlah atau varian
+### US-12 Pilih jumlah atau varian
 
 Sebagai pengunjung, saya ingin memilih jumlah atau varian sebelum memesan, dan pilihan itu ikut tertulis di pesan WhatsApp.
 
-### US-12 PWA
+### US-13 PWA
 
 Sebagai pengunjung, saya ingin memasang katalog di layar HP seperti aplikasi. Ikon tersedia di `public/icons`.
 
-### US-13 Deskripsi produk dibuat AI
+### US-14 Deskripsi produk dibuat AI
 
 Sebagai admin, saya ingin membuat deskripsi produk secara otomatis dengan AI (Gemini API) dari nama dan kategori produk.
 
-Catatan: bonus US-07, US-08, dan US-09 hanya dihitung jika aksinya terlindungi login.
+Catatan: bonus US-08, US-09, dan US-10 hanya dihitung jika aksinya terlindungi login.

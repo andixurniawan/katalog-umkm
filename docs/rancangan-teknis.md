@@ -36,10 +36,10 @@ app/
   produk/[id]/page.jsx      detail produk (US-02)
   admin/
     login/page.jsx          login (US-04)
-    page.jsx                daftar produk admin
+    page.jsx                daftar produk admin (US-07, bonus)
     password/page.jsx       ganti password (US-05)
-    produk/baru/page.jsx    tambah produk (US-07, bonus)
-    produk/[id]/ubah/...    ubah produk (US-08, bonus)
+    produk/baru/page.jsx    tambah produk (US-08, bonus)
+    produk/[id]/ubah/...    ubah produk (US-09, bonus)
 components/                 komponen tampilan (lihat DESIGN.md)
 lib/
   toko.js                   identitas toko dan nomor WhatsApp

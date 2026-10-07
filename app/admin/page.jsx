@@ -7,6 +7,7 @@ import { produkContoh } from "@/lib/data-contoh";
 // US-06: halaman ini belum terlindungi. Siapa pun bisa membukanya.
 // Tugas peserta: hanya admin yang sudah login boleh membuka semua halaman /admin.
 export default function HalamanAdmin() {
+  // US-07 (bonus): daftar produk masih memakai data contoh, belum dari database.
   const daftarProduk = produkContoh;
 
   return (
@@ -14,11 +15,11 @@ export default function HalamanAdmin() {
       <NavAdmin />
       <div className="flex flex-wrap items-center justify-between gap-3">
         <h1 className="text-2xl font-extrabold">Produk</h1>
-        {/* US-07 (bonus): tambah produk */}
+        {/* US-08 (bonus): tambah produk */}
         <Tombol href="/admin/produk/baru">Tambah produk</Tombol>
       </div>
       <CatatanBelumAktif>
-        Halaman admin belum terlindungi dan masih memakai data contoh: lihat US-06 dan US-01.
+        Halaman admin belum terlindungi dan masih memakai data contoh: lihat US-06 dan US-07.
       </CatatanBelumAktif>
       <TabelProduk daftarProduk={daftarProduk} />
     </div>
