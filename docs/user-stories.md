@@ -21,7 +21,7 @@ Bernilai 10 poin.
 
 Kriteria selesai:
 
-- Halaman `/` menampilkan semua produk dari tabel `produk` di Supabase, bukan dari `lib/data-contoh.js`. (3 poin)
+- Halaman `/` menampilkan semua produk dari tabel `produk` di Supabase, bukan dari `lib/data-contoh.js`. Kalau kamu mengerjakan paginasi (US-16) atau menyembunyikan produk nonaktif (US-32), kriteria ini tetap terpenuhi. (3 poin)
 - Data diambil di sisi server. (2 poin)
 - Setiap kartu menampilkan foto, kategori, nama, dan harga dalam format rupiah. (3 poin)
 - Jika belum ada produk, halaman menampilkan pesan yang jelas. (2 poin)
